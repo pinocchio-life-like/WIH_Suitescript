@@ -26,7 +26,7 @@ define(["N/ui/dialog"], function (dialog) {
           // Display a welcome message with the entered employee name
           dialog.alert({
             title: "Welcome!",
-            message: "Welcome, " + value,
+            message: "Welcome" + value,
           });
         }
       },
