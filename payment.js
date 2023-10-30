@@ -57,7 +57,7 @@ define(["N/ui/serverWidget", "N/http", "N/https"], function (
         body: data,
       });
 
-      // Wait for confirmation from the user
+      // Wait for confirmation from the user and
       // TODO: Implement confirmation logic
 
       context.response.write("USSD request sent successfully.");
